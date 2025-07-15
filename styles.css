@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER START ==================================================*/
+header {
+  background-color: cornflowerblue;
+  height: 150px;
+  margin: 10px;
+}
+/* heade end */
+
+/* MAIN START ==================================================*/
+main {
+  background-color: cornflowerblue;
+  height: 550px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about {
+  background-color: rgb(252, 210, 23);
+  height: 60%;
+}
+
+.services {
+  background-color: rebeccapurple;
+  height: 40%;
+  padding: 10px;
+
+  /* display: flex;
+  gap: 10px; */
+  /* justify-content: space-evenly; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(39ch, 1fr));
+  gap: 10px;
+}
+
+.services div.card {
+  background-color: maroon;
+  height: 100%;
+  /* width: 30%; */
+}
+
+.first-element {
+  grid-column: 1 / -1;
+}
+
+/* main end */
+
+/* FOOTER START ==================================================*/
+footer {
+  background-color: cornflowerblue;
+  height: 150px;
+  margin: 10px;
+}
+/* footer end */
